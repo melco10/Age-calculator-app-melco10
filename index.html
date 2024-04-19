@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="styles/root.css">
+  <link rel="stylesheet" href="styles/attribution.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/mobile-main.css">
+
+  <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+
+ 
+  <style>
+   
+  </style>
+</head>
+<body>
+
+
+  <main>
+
+    <div class="container">
+
+      <div class="ageInput">
+        <ul>
+          <li>
+            <label for="day" class="errorText">Day:</label><br>
+            <input type="number" placeholder="DD" class="input"  inputmode="numeric" id="day" name="day"  maxlength="2" step="any">
+            <span class="errorLabel"></span>
+          </li>
+          <li>
+            <label for="month"  class="errorText" >Month:</label><br>
+            <input type="number" placeholder="MM"  class="input" inputmode="numeric" id="month" name="month"  maxlength="2"  step="any" >
+            <span class="errorLabel"></span>
+          </li>
+          <li>
+            <label for="year" class="errorText">Year:</label><br>
+            <input type="number" placeholder="YYYY" class="input" id="year" name="year" min="1900" step="any" maxlength="4">
+            <span class="errorLabel"></span>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="hr">
+        <hr>
+        <img src="/assets/images/icon-arrow.svg" alt="icon-arrow.svg" onclick="calcBTN()">
+      </div>
+
+
+      <div class="ageOutput">
+         <ul>
+           <li>
+            <h2><span id="outputYears" >--</span>years</h2>
+           </li>
+
+           <li>
+            <h2><span id="outputMonths">--</span>months</h2>
+           </li>
+
+           <li>
+            <h2><span id="outputDays">--</span>days</h2>
+           </li>
+         </ul>
+      </div>
+      
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/melco10">Co</a>.
+    </div>
+  
+
+  </main>
+
+
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>

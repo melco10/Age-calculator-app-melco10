@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+/* Hide the up and down arrows on numeric inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Colors */
+:root {
+    --color-primary-purple: hsl(259, 100%, 65%);
+    --color-primary-light-red: hsl(0, 100%, 67%);
+  
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --color-neutral-off-white: hsl(0, 0%, 94%);
+    --color-neutral-light-grey: hsl(0, 0%, 86%);
+    --color-neutral-smokey-grey: hsl(0, 1%, 44%);
+    --color-neutral-off-black: hsl(0, 0%, 8%);
+}
+  
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color-neutral-off-white);
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button, input {
+    font-family: inherit; /* Inherit the root font family */
+}
+
+ul{list-style: none;}
+

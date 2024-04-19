@@ -1,0 +1,52 @@
+/* Mobile Styles (375px) */
+@media (max-width: 375px) {
+
+    .container{
+        width: 320px;
+        height: 500px;
+
+        border-bottom-right-radius: 100px;
+    }
+
+    .ageInput  ul{
+        margin-left: -2em; 
+        gap: 0.8em;
+    }
+
+        .ageInput  ul > li label{
+            font-size: 0.8em;
+            
+        }
+
+        .ageInput input{
+            padding: 0.5em 0.8em;
+            width: 52px;
+            font-size: 1.3em;
+        }
+
+    .hr{
+        width: 300px;
+        padding-top: 2em;
+        padding-left: 0.5em;  
+    }
+        .hr img{
+            
+            padding: 1em;
+            width: 30px;
+            height: 30px;
+            right: 150px;
+            top: 147px;
+        }
+    .ageOutput{
+        padding-top: 2em;
+    }
+    .ageOutput ul{
+        margin-left: -2em;
+    }
+
+        .ageOutput  h2{
+            
+            font-size: 3em;
+        }
+   
+}
